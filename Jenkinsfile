@@ -9,7 +9,7 @@ pipeline {
 
     stage('build') {
       steps {
-        build 'maven'
+        build 'pom.xml'
       }
     }
 
